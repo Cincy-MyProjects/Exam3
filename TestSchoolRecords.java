@@ -10,8 +10,8 @@ public class TestSchoolRecords {
         persons.add(new Faculty("Prof.John", "add3", "123458", "john@frcc.edu", "Computer Science", 6000, "01/01/2022", "9am-5pm", "junior"));
         persons.add(new Faculty("Prof.Thomas", "add4", "123459", "thomas@frcc.edu", "Mathematics", 7000, "01/01/2020", "9am-5pm", "senior"));
 
-        persons.add(new Staff("Mr.Mathew", "add3", "123458", "john@frcc.edu", "Computer Science", 3000, "01/01/2023", "Accountant"));
-        persons.add(new Staff("Mr.Varghese", "add4", "123459", "thomas@frcc.edu", "Mathematics", 4000, "01/01/2021", "Librarian"));
+        persons.add(new Staff("Mr.Mathew", "add3", "123458", "mathew@frcc.edu", "Computer Science", 3000, "01/01/2023", "Accountant"));
+        persons.add(new Staff("Mr.Varghese", "add4", "123459", "varghese@frcc.edu", "Mathematics", 4000, "01/01/2021", "Librarian"));
         for (Person person : persons) {
             System.out.println(person);
         }
